@@ -7,19 +7,21 @@ client.on('ready', () => {
     client.user.setActivity("Waiting for instructions");
 
     console.log("Servers:");
-    client.guilds.cache.forEach((guild) => {
+    //old syntax before v12 of discord.js
+    //client.guilds.forEach //it doesnt work 
+/*     client.guilds.cache.forEach((guild) => {
         console.log(" - " + guild.name)
         
-        // List all channels
+     //List all channels
         guild.channels.cache.forEach((channel) => {
             console.log(` -- ${channel.name} (${channel.type}) - ${channel.id}`)
         })
-    })
+    }) */
 
 
 });
+//dont upload bot token it will get disabled automatically by discord bot
 
-const bot_loginToken = "Nzc0MzQxOTc3MzE5Mjc2NjE0.X6WYKQ.X65L1Sqx8MKMfEkyNM3amT7uvEI";
 
 client.login(bot_loginToken);
 
