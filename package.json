@@ -1,0 +1,25 @@
+{
+  "name": "Amazon_Discord_Bot",
+  "version": "1.0.0",
+  "description": "Discord Bot that uses a python web Scraper. The bot uses a python API to display data within a channel.",
+  "main": "index.js",
+  "dependencies": {
+    "discord.js": "^12.4.1",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rileyhawk1417/Amazon_Discord_Bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rileyhawk1417/Amazon_Discord_Bot/issues"
+  },
+  "homepage": "https://github.com/rileyhawk1417/Amazon_Discord_Bot#readme"
+}
